@@ -1,3 +1,9 @@
+-- mine 
+生成C++ pb的命令
+protoc -I="G:\Temp\protocol_pro" --cpp_out=G:\Temp\protocol_pro G:/Temp/protocol_pro/foo.proto 
+生成python 
+protoc --python_out=. foo.proto
+
 Protocol Buffers - Google's data interchange format
 ===================================================
 
